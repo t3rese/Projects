@@ -1,0 +1,178 @@
+* {box-sizing: border-box;}
+
+body {
+    background-color: whitesmoke;
+    font-family: "Roboto Light", Helvetica, sans-serif;
+    margin:0;}
+
+#wrapper {
+    background-color: whitesmoke;
+    padding: 1em;}
+
+h1 {
+    color: #c29224;
+    font-family:"Roboto Light", Helvetica, sans-serif;
+    letter-spacing: 0.25em;
+    padding-top: 0.5em;
+    margin-top: 50px;
+    padding-bottom: 1.4em;
+    background-image: url("img/logoblack.png");
+    background-repeat: no-repeat;
+    background-position: 40% 50%;}
+
+.header {
+    background-color:whitesmoke;
+    display: inline-block;
+    width:100%;
+    text-align: center;
+    margin-top: 50px;}
+
+.header a:link {text-decoration: none; color: black; font-weight: bold;}
+.header a:visited { text-decoration: none;color: #c29224}
+
+.headerbook {
+    margin-top: 62px;
+    min-height: 250px;
+    max-width: 76%;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(img/dropzone_aerial_view2.png);
+    background-position: center;}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    height: 10%;
+    overflow: hidden;
+    width: 100%;
+    background-color:#3a65c8;
+    z-index: 9999;
+    font-size: medium;
+    text-align: center;
+    padding-left: 0.5em;
+    padding-right: 0.5em;}
+
+.navbar a {
+    color: white;
+    display: inline-flex;
+    text-decoration: none;
+    padding: 5px;
+    font-family: Helvetica, Arial, sans-serif;}
+
+.navbar a:hover {color: #000033;}
+
+main{
+    background-color: whitesmoke;
+    padding: 1px 20px 20px 30px;
+    display: block;
+    overflow: auto;}
+
+.row {display: flex; flex-wrap: wrap; padding: 0 4px; justify-content: center; }
+.column {flex: 33%; max-width: 33%;padding: 0 4px;}
+.column img { margin-top: 8px; vertical-align: middle; width: 100%;}
+
+
+
+h2 {
+    color: #2454C2;
+    font-family:"Roboto Light", Helvetica, sans-serif;
+    margin: 0;
+    font-weight: bold;}
+
+h5 {color: #2454C2; font-family:"Roboto Light", Helvetica, sans-serif;font-weight: bold;}
+
+.contact {background-color: whitesmoke; align-content: center; padding: 1em;}
+.address {background-color:whitesmoke ;}
+.map {background-color: whitesmoke;}
+.address2 {background-color: whitesmoke; align-content: center; padding: 1em;}
+
+body {
+    background-color: whitesmoke;
+    color: black;
+    font-family: "Roboto Light", Helvetica, sans-serif;}
+
+.adventure {color: #2454C2;font-weight: bold;}
+.bold {font-weight: bold;}
+
+footer a:link {
+    color: white;
+    text-decoration: none;}
+
+footer a:hover {color: #76b4e6;}
+
+footer {
+    font-size: medium;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    clear: right;
+    color: white;
+    background-color: #454545;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;}
+
+@media (min-width: 600px)
+{
+    .header {margin-top: 100px;margin-bottom: 50px;}
+
+    .navbar {
+        padding-left: 2em;
+        padding-right: 1em;}
+
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-family: Helvetica, Arial, sans-serif;}
+
+    #wrapper {
+        padding-top: 30px;
+        margin: auto;
+        width: 90%;}
+
+    h1 {
+        padding-bottom: 1.5em;
+        background-position: 42% 50%;}
+
+}
+
+@media (min-width: 1024px)
+{
+    .header {margin-top: 120px;margin-bottom: 50px}
+
+    #wrapper {
+        margin: auto;
+        width: 80%;}
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        padding: 20px;
+        font-family: Helvetica, Arial, sans-serif;}
+
+    h1 {
+        padding-bottom: 1.1em;
+        background-position: 47.5% 50%;}
+
+
+    .mycarousel {max-width: 95%; margin: auto}
+
+    .headerbook {
+        margin-top: 75px;
+        min-height: 400px;}
+
+    h2 {padding-top: 1em;}
+
+    .navbar {
+        display: inline;
+        font-size: x-large;}
+
+    .contact {display: grid;grid-template-columns: 1fr 1fr;}
+    .address {padding-top: 3em}
+    .map {padding-left: 11em}
+
+
+}

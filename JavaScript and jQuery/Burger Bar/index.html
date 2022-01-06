@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Burger Bar</title>
+    <link rel="stylesheet" href="burgerbar.css">
+    <link rel="icon" href="burger-img/burger-icon.png">
+</head>
+<body>
+<h1>Terese's Burger Bar</h1>
+<div id="grid">
+    <div class="category" id="basics">
+        <h2>Basics</h2>
+        <img src="burger-img/top-bun.png" data-category="basics" alt="top bun">
+        <img src="burger-img/patty.png" data-category="basics" alt="burger patty">
+        <img src="burger-img/bottom-bun.png" data-category="basics" alt="bottom bun">
+    </div>
+    <div class="category" id="extras">
+        <h2>Extras</h2>
+        <img src="burger-img/cheese.png" data-category="extras" alt="cheese">
+        <img src="burger-img/lettuce.png" data-category="extras" alt="lettuce">
+        <img src="burger-img/onions.png" data-category="extras" alt="onion">
+        <img src="burger-img/pickles.png" data-category="extras" alt="pickles">
+        <img src="burger-img/tomato.png" data-category="extras" alt="tomato">
+    </div>
+    <div class="category" id="condiments">
+        <h2>Condiments</h2>
+        <img src="burger-img/ketchup.png" data-category="condiments" alt="ketchup">
+        <img src="burger-img/mayonnaise.png" data-category="condiments" alt="mayonnaise">
+        <img src="burger-img/mustard.png" data-category="condiments" alt="mustard">
+    </div>
+    <div class="category">
+        <h2>Your Order</h2>
+        <div id="order">
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+<script src="burgerbar.js"></script>
+</body>
+</html>

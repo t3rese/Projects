@@ -1,0 +1,95 @@
+td {
+    width: 125px;
+    position: relative;
+    background-color: green;
+    color: green;
+}
+
+tr {
+    height: 125px;
+    background-color: green;
+    color: green;
+}
+
+table {
+    background-color: #FFFF9F;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.undug {
+    background-color: green;
+}
+
+.dug {
+    background-color: saddlebrown;
+}
+
+.dugbone {
+    background-color: saddlebrown;
+    background-image: url("bone.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#currentstate {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: Papyrus, Helvetica, sans-serif;
+    background-color: seagreen;
+    display: table;
+    padding-right: 40%;
+    padding-left: 40%;
+
+}
+
+h1 {
+    font-family: Papyrus, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    background-color: #FFFF9F;
+    padding: 1em;
+    margin: 0;
+
+}
+
+#wrapper {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    padding-top: 2em;
+}
+
+body {
+    background-image: url("grass.jpg");
+}
+
+form {
+    text-align: center;
+    font-family: Papyrus,Helvetica, sans-serif;
+    background-color: #FFFF9F;
+    padding: 1em 1em 2em;
+    margin: 0;
+    font-weight: bold;
+}
+
+label {
+    font-size: 25px;
+}
+
+button {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 31px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#yardsize {
+    padding: 16px 33px;
+}

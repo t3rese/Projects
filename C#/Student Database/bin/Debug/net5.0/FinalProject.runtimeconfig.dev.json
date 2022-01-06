@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Terese\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Terese\\.nuget\\packages"
+    ]
+  }
+}

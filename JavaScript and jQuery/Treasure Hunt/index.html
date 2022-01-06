@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Seek and Find</title>
+    <link rel="stylesheet" href="treasurehunt.css">
+</head>
+<body>
+<header id="title">
+    <h1>Seek and Find</h1>
+</header>
+<div id="wrapper">
+    <div>
+        <h2>Can you find all of these cats?</h2>
+        <ul>
+            <li>Cat in a top hat</li>
+            <li>Cat wearing a red bow tie</li>
+            <li>Cat with a pink bow</li>
+            <li>Green cat</li>
+            <li>A white bunny</li>
+        </ul>
+        <br>
+        <p id="results"></p>
+    </div>
+    <div id="picture">
+        <img src="bunny-cats-puzzle-resized.png" usemap="#image_map">
+        <map name="image_map">
+            <area id="topHat" alt="Cat in top hat" title="Cat in top hat" href="#" coords="280,122,309,165" shape="rect">
+            <area id="bowTie" alt="Cat with red bow tie" title="Cat with red bow tie" href="#" coords="436,118,470,142" shape="rect">
+            <area id="pinkBow" alt="Cat with pink bow" title="Cat with pink bow" href="#" coords="166,440,216,486" shape="rect">
+            <area id="greenCat" alt="Green cat " title="Green cat " href="#" coords="252,387,297,431" shape="rect">
+            <area id="whiteBunny" alt="White bunny" title="White bunny" href="#" coords="129,297,177,370" shape="rect">
+        </map>
+    </div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+            crossorigin="anonymous"></script>
+    <script src="code.js"></script>
+</body>
+</html>

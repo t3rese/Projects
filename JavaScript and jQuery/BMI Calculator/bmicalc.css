@@ -1,0 +1,18 @@
+body {
+    font-family: "Roboto Light", Helvetica, sans-serif;
+}
+
+#chart {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("BMI_chart.png");
+    width: 800px;
+    height: 450px;
+    display: inline-block;
+    position: relative;
+
+}
+
+.person {
+    position: absolute;
+}

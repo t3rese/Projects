@@ -1,0 +1,23 @@
+
+#drunkstages {
+    background-image: url("bac-symptoms.png");
+    width: 1000px;
+    height: 319px;
+    position: relative;
+}
+#wrapper {
+    padding: 2em;
+    margin: auto;
+}
+
+input#slider {
+    width: 800px;
+    position: absolute;
+    top: 163px;
+    left: 25px;
+}
+
+p#bac {
+    font-weight: bold;
+    color: black;
+}

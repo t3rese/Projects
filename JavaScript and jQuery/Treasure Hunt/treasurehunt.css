@@ -1,0 +1,30 @@
+* {box-sizing: border-box;}
+
+body {
+    font-family: "Roboto Light", Helvetica, sans-serif;
+    margin:0;}
+
+#wrapper {
+    background-color: #FFFF9F;
+    padding: 2em 10em;
+    display: grid;grid-template-columns: 1fr 1fr;}
+
+#title {
+    padding-right: 10em;
+    padding-left: 10em;
+    padding-top: 2em;
+    letter-spacing: 0.25em;}
+
+h1 {color: #3F2860;}
+h2 {color: #3F2860;}
+li {color: #3F2860;}
+
+#picture {
+    padding: 2em;
+}
+
+#results {
+    color: #3F2860;
+    font-family: "Roboto Light", Helvetica, sans-serif;
+    font-weight: bold;
+}

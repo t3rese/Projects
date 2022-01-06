@@ -1,0 +1,32 @@
+#grid {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#order {
+    display: flex;
+    flex-direction: column-reverse ;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+body {
+    text-align: center;
+}
+
+.category {
+    font-family: "Roboto Light", Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: "Roboto Light", Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: "Roboto Light", Helvetica, sans-serif;
+}
+
+#order img {
+    margin-bottom: -50px;
+}
