@@ -1,0 +1,39 @@
+
+
+
+body {
+    background-image: url("spring.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: "MV Boli", "Ink Free", serif;
+    font-size: large;
+}
+
+#wrapper {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 75%;
+    padding-top: 2em;
+}
+
+
+h1 {
+    font-family: "MV Boli", "Ink Free", serif ;
+    color: white;
+}
+
+button {
+    font-family: "MV Boli", "Ink Free", serif
+}
+
+input {
+    font-family: "MV Boli", "Ink Free", serif
+}
+
+#instructions {
+    font-size: small;
+    font-family: 'Orelega One', cursive;
+}
+

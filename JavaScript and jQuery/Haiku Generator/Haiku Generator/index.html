@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Haiku Generator</title>
+    <link rel="stylesheet" href="haiku.css">
+    <link rel="icon" href="cherry-blossom.png">
+</head>
+<body>
+<div id="wrapper">
+    <div>
+        <h1>Haiku Generator</h1>
+        <p id="instructions">
+            Instructions: Enter a word with dashes between each syllable.
+            <br>
+            For example, "dis-co-ve-ry", "bell" or "ca-me-ra."
+        </p>
+        <br>
+        <form>
+            <label for="word">Enter a word </label>
+            <input type="text" id="word" name="Enter a Word" required="required">
+            <br>
+            <br>
+            <input type="submit" value="Add Word to Dictionary">
+            <br>
+            <button id="generateHaiku">Generate Haiku</button>
+        </form>
+    </div>
+    <div id="output">
+        <p id="error"></p>
+        <p id="firstLine"></p>
+        <p id="secondLine"></p>
+        <p id="thirdLine"></p>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+<script src="code.js"></script>
+</body>
+</html>
